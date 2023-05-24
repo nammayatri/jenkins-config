@@ -1,7 +1,7 @@
 
-# nammayatri Jenkins CI configuration
+# CI configurations
 
-Configuration for the CI machines used in https://github.com/nammayatri
+Nammayatri uses Jenkins for CI. This repository contains the NixOS configuration for the master node and the macOS slave node. It uses [jenkins-nix-ci](https://github.com/juspay/jenkins-nix-ci) under the hood.
 
 ## Deploying
 
