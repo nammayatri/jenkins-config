@@ -1,14 +1,16 @@
 
-# nammayatri Jenkins CI
+# nammayatri Jenkins CI configuration
 
 Configuration for the CI machines used in https://github.com/nammayatri
 
 ## Deploying
 
+First enter the nix shell (via direnv or `nix develop`) and then run:
+
 To deploy the master node,
 
 ```sh
-./deploy.sh .#nixos
+deploy --remote-build -s .#nixos
 ```
 
 NOTE: If deploying fails with rollback on NetworkManager issues, see https://github.com/serokell/deploy-rs/issues/91#issuecomment-846292218 (You mayi have to reboot the machine after deploying with rollback disable; and deploy again).
@@ -16,7 +18,7 @@ NOTE: If deploying fails with rollback on NetworkManager issues, see https://git
 To deploy the macOS slave node,
 
 ```sh
-./deploy.sh .#macos
+deploy --remote-build -s .#macos
 ```
 
 ## Local build
