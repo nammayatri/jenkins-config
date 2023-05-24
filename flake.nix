@@ -83,7 +83,7 @@
               #
               # It will fetch the latest version of plugins in the above list,
               # and write their pinned sources to the jenkins-plugins.nix file.
-              plugins-file = "example/nammayatri/nix/jenkins-plugins.nix";
+              plugins-file = "nix/jenkins-plugins.nix";
 
               features = {
                 cachix.enable = true;
