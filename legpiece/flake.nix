@@ -71,7 +71,7 @@
               # Setup home-manager in NixOS config
               self.nixosModules.home-manager
               {
-                home-manager.users.${myUserName} = {
+                home-manager.users.admin = {
                   imports = [ self.homeModules.default ];
                   home.stateVersion = "22.11";
                 };
