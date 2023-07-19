@@ -57,14 +57,16 @@
                 # Enable flakes
                 nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-                users.users.root = {
-                  root.initialHashedPassword = "";
-                  root.openssh.authorizedKeys.keys = [
-                    # Put your ssh pub keys
-                  ];
-                };
-                users.users.admin = {
-                  isNormalUser = true;
+                users.users = {
+                  root = {
+                    initialHashedPassword = "";
+                    openssh.authorizedKeys.keys = [
+                      # Put your ssh pub keys
+                    ];
+                  };
+                  admin = {
+                    isNormalUser = true;
+                  };
                 };
               })
 
