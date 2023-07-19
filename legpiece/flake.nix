@@ -19,7 +19,6 @@
 
       flake =
         let
-          myUserName = "admin";
           hostName = "legpiece";
         in
         {
@@ -36,7 +35,6 @@
 
                 boot.loader.grub.device = "/dev/nvme0n1";
                 boot.loader.grub.efiSupport = true;
-                users.users.${myUserName}.isNormalUser = true;
                 system.stateVersion = "23.05";
 
                 environment.systemPackages = with pkgs; [
