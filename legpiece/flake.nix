@@ -42,6 +42,7 @@
                 environment.systemPackages = with pkgs; [
                   # Put your packages here
                   htop
+                  nmtui
                 ];
 
                 services = {
