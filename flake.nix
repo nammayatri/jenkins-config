@@ -29,6 +29,7 @@
           flake.inputs.jenkins-nix-ci.darwinModules.slave
           ./nix/darwin/configuration.nix
           ./nix/tailscale.nix
+          ./nix/storage.nix
         ];
       });
 
@@ -96,6 +97,7 @@
 
           ./nix/nixos/configuration.nix
           ./nix/tailscale.nix
+          ./nix/storage.nix
         ];
         sops.defaultSopsFile = ./secrets.json;
         sops.defaultSopsFormat = "json";
