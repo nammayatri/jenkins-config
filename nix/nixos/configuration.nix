@@ -18,6 +18,7 @@
   boot.loader.efi.canTouchEfiVariables = true;
   boot.loader.efi.efiSysMountPoint = "/boot/efi";
   boot.kernelParams = [ "i915.force_probe=a780" ];
+  boot.binfmt.emulatedSystems = [ "aarch64-linux" ]; # For cross-compiling, https://discourse.nixos.org/t/how-do-i-cross-compile-a-flake/12062/4?u=srid
 
   # Setup keyfile
   boot.initrd.secrets = {
