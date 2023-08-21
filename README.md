@@ -13,7 +13,10 @@ To deploy the master node,
 deploy --remote-build -s .#nixos
 ```
 
-NOTE: If deploying fails with rollback on NetworkManager issues, see https://github.com/serokell/deploy-rs/issues/91#issuecomment-846292218 (You may have to reboot the machine after deploying with rollback disable; and deploy again).
+NOTE: If deploying fails with rollback on NetworkManager issues, see https://github.com/serokell/deploy-rs/issues/91#issuecomment-846292218. 
+
+- Deploy with `--auto-rollback false --magic-rollback false`
+- You may have to reboot the machine after deploying with rollback disabled, and deploy again.
 
 To deploy the macOS slave node,
 
