@@ -17,57 +17,57 @@
     blueocean-commons = mkJenkinsPlugin {
       name = "blueocean-commons";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/blueocean-commons/1.27.6/blueocean-commons.hpi";
-        sha256 = "cbf0e9c8f31d625572bff1e106a9b163456a2b6cc74c616f0c177335054f66f7";
+        url = "https://updates.jenkins-ci.org/download/plugins/blueocean-commons/1.27.3/blueocean-commons.hpi";
+        sha256 = "d397762452ee2998d2984fe9475c85236a06b8d35d78bdb9bbc382b58258e75b";
         };
       };
     blueocean-core-js = mkJenkinsPlugin {
       name = "blueocean-core-js";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/blueocean-core-js/1.27.6/blueocean-core-js.hpi";
-        sha256 = "947e830855b12a62c4c331493c3a9b9acdb5a3399adbfadee936bd40d740c895";
+        url = "https://updates.jenkins-ci.org/download/plugins/blueocean-core-js/1.27.3/blueocean-core-js.hpi";
+        sha256 = "7305281db350d6dea7d3c96976c4b204b279164d359a0e4c0a8b6e4ea3410c07";
         };
       };
     blueocean-rest = mkJenkinsPlugin {
       name = "blueocean-rest";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/blueocean-rest/1.27.6/blueocean-rest.hpi";
-        sha256 = "13dbe9876d70d1a2da60edb19bfd0a6ff76f7c3d4c2fa4adf6d070b6485a336c";
+        url = "https://updates.jenkins-ci.org/download/plugins/blueocean-rest/1.27.3/blueocean-rest.hpi";
+        sha256 = "22abb9c3626e5ee059d4782c1d5cb630446961d1c634692a388b4a783e07458c";
         };
       };
     blueocean-web = mkJenkinsPlugin {
       name = "blueocean-web";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/blueocean-web/1.27.6/blueocean-web.hpi";
-        sha256 = "048520af01dcd748b4c91feca96f5e0b1b49d7a1904ee76f384217fde360cd44";
+        url = "https://updates.jenkins-ci.org/download/plugins/blueocean-web/1.27.3/blueocean-web.hpi";
+        sha256 = "f65be13547d2b5600cd448439a1b06261c7530755de472376f6351120604ed73";
         };
       };
     bootstrap5-api = mkJenkinsPlugin {
       name = "bootstrap5-api";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/bootstrap5-api/5.3.0-1/bootstrap5-api.hpi";
-        sha256 = "76d3ade537956d8a22ff7378df49ac38aa7baa6f50a6fc7ea6233426de48937b";
+        url = "https://updates.jenkins-ci.org/download/plugins/bootstrap5-api/5.2.2-2/bootstrap5-api.hpi";
+        sha256 = "3fb41e44141bf4be1d26c50cdf39aca2a8953d36ee6c3e6f6af66cf5778e79d6";
         };
       };
     bouncycastle-api = mkJenkinsPlugin {
       name = "bouncycastle-api";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/bouncycastle-api/2.29/bouncycastle-api.hpi";
-        sha256 = "b4579237ea34c5d45d02c8cb16ca35794163ca114d87dfb75e84949798a18ee6";
+        url = "https://updates.jenkins-ci.org/download/plugins/bouncycastle-api/2.27/bouncycastle-api.hpi";
+        sha256 = "3837ee8f7402bf4a4dc90f6a228a6086086205bc755e119eadff2b15faf908a3";
         };
       };
     branch-api = mkJenkinsPlugin {
       name = "branch-api";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/branch-api/2.1122.v09cb_8ea_8a_724/branch-api.hpi";
-        sha256 = "cdde6fda3be6e1f46bf1deffcd269a29ed9005cece453b571f59653809053148";
+        url = "https://updates.jenkins-ci.org/download/plugins/branch-api/2.1071.v1a_188a_562481/branch-api.hpi";
+        sha256 = "16f3f3afdb4684e8558eec3c5c7d2523affa78c01b83fa822fb6379aa1470cf8";
         };
       };
     caffeine-api = mkJenkinsPlugin {
       name = "caffeine-api";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/caffeine-api/3.1.8-133.v17b_1ff2e0599/caffeine-api.hpi";
-        sha256 = "a6c614655bc507345bf16b5c4615bb09b1a20f934c9bf0b15c02ccea4a5c0400";
+        url = "https://updates.jenkins-ci.org/download/plugins/caffeine-api/2.9.3-65.v6a_47d0f4d1fe/caffeine-api.hpi";
+        sha256 = "649fb9a4f730024d30b4890182e9d1c41ff388664fd81786b6cf5ddf9367d89e";
         };
       };
     checks-api = mkJenkinsPlugin {
@@ -80,148 +80,148 @@
     cloudbees-folder = mkJenkinsPlugin {
       name = "cloudbees-folder";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/cloudbees-folder/6.848.ve3b_fd7839a_81/cloudbees-folder.hpi";
-        sha256 = "aeadc90ac22ba630658dc5521436fe4e00d545002553eb9628b1278ba0402992";
+        url = "https://updates.jenkins-ci.org/download/plugins/cloudbees-folder/6.815.v0dd5a_cb_40e0e/cloudbees-folder.hpi";
+        sha256 = "cd045bc885fc7b147765fdae56ef3c6ffd98ade2aed7086fd4a691e270b83f04";
         };
       };
     command-launcher = mkJenkinsPlugin {
       name = "command-launcher";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/command-launcher/107.v773860566e2e/command-launcher.hpi";
-        sha256 = "72e0ae8c9a31ac7f5a3906f7cacd34de26bdca3767bfef87027723850a68ca19";
+        url = "https://updates.jenkins-ci.org/download/plugins/command-launcher/90.v669d7ccb_7c31/command-launcher.hpi";
+        sha256 = "38e6bf4f404d2f8264b338b773a1c930e12143f97c18bd67d6c9661427a6ada8";
         };
       };
     commons-lang3-api = mkJenkinsPlugin {
       name = "commons-lang3-api";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/commons-lang3-api/3.13.0-62.v7d18e55f51e2/commons-lang3-api.hpi";
-        sha256 = "e27bbec4d37f26e7da0d0732b241ad0eb2b60826c3f7521808b1442727f54858";
+        url = "https://updates.jenkins-ci.org/download/plugins/commons-lang3-api/3.12.0-36.vd97de6465d5b_/commons-lang3-api.hpi";
+        sha256 = "98dfff9f21370d6808392fd811f90a6e173e705970309877596032be1b917ad1";
         };
       };
     commons-text-api = mkJenkinsPlugin {
       name = "commons-text-api";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/commons-text-api/1.10.0-68.v0d0b_c439292b_/commons-text-api.hpi";
-        sha256 = "d21389b3d63edd5779315559632186b7b1ea9ae772b16dc37bb51002998b5464";
+        url = "https://updates.jenkins-ci.org/download/plugins/commons-text-api/1.10.0-36.vc008c8fcda_7b_/commons-text-api.hpi";
+        sha256 = "250120de1e1e56e246b6180324d99d161a073d4dfbbf8adc2552de92f1bf2ceb";
         };
       };
     conditional-buildstep = mkJenkinsPlugin {
       name = "conditional-buildstep";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/conditional-buildstep/1.4.3/conditional-buildstep.hpi";
-        sha256 = "d2ce40b86abc42372085ace0a6bb3785d14ae27f0824709dfc2a2b3891a9e8a8";
+        url = "https://updates.jenkins-ci.org/download/plugins/conditional-buildstep/1.4.2/conditional-buildstep.hpi";
+        sha256 = "919be166db7b7f90c1445b7dd37981e60880929362908439ba20cb25799fc98f";
         };
       };
     config-file-provider = mkJenkinsPlugin {
       name = "config-file-provider";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/config-file-provider/953.v0432a_802e4d2/config-file-provider.hpi";
-        sha256 = "1ec14988ca896a2ec63e8bb9b071039fefbefe4db4007dec6f9742b72f9c5da4";
+        url = "https://updates.jenkins-ci.org/download/plugins/config-file-provider/3.11.1/config-file-provider.hpi";
+        sha256 = "c026f18419f3f67521ebcfb3c58797f3f3acf27766919ef3d40691eeedf3761b";
         };
       };
     configuration-as-code = mkJenkinsPlugin {
       name = "configuration-as-code";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/configuration-as-code/1670.v564dc8b_982d0/configuration-as-code.hpi";
-        sha256 = "09e0ad59612ae42e928106543a93bc4cb3f7f97abc1097aa05d19a6fd0305d07";
+        url = "https://updates.jenkins-ci.org/download/plugins/configuration-as-code/1625.v27444588cc3d/configuration-as-code.hpi";
+        sha256 = "413a8a73982f2e87dc3a55110ab8d8f292f4b6b5508de21f4fbae6c7005f2ecf";
         };
       };
     credentials = mkJenkinsPlugin {
       name = "credentials";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/credentials/1271.v54b_1c2c6388a_/credentials.hpi";
-        sha256 = "9decbc2d8c62ad6f424426f507966be04b51f95e6bf9f75ed10144fedbcc6685";
+        url = "https://updates.jenkins-ci.org/download/plugins/credentials/1224.vc23ca_a_9a_2cb_0/credentials.hpi";
+        sha256 = "23674ca9c570e36597166d9b5a629383546548594ad9f7f7ffe13594231d16bb";
         };
       };
     credentials-binding = mkJenkinsPlugin {
       name = "credentials-binding";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/credentials-binding/631.v861c06d062b_4/credentials-binding.hpi";
-        sha256 = "c0fdd26b3a48322f7a5c29e6eb9870b32cc118890defe738f59573ce66ae6e80";
+        url = "https://updates.jenkins-ci.org/download/plugins/credentials-binding/604.vb_64480b_c56ca_/credentials-binding.hpi";
+        sha256 = "6a914bef0b5a0cea8ece8ce66b163718a58007b7082adc3798c2960c7a025acc";
         };
       };
     display-url-api = mkJenkinsPlugin {
       name = "display-url-api";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/display-url-api/2.3.9/display-url-api.hpi";
-        sha256 = "92dd20c27cb63da7f3ce8d0b2a13ef109bdfb7e6716dcbc3b37ace8d21de7a78";
+        url = "https://updates.jenkins-ci.org/download/plugins/display-url-api/2.3.7/display-url-api.hpi";
+        sha256 = "1d35d2e9727821c63609a672e872a68172696e8aa81ec6ea07816086f95c684d";
         };
       };
     durable-task = mkJenkinsPlugin {
       name = "durable-task";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/durable-task/523.va_a_22cf15d5e0/durable-task.hpi";
-        sha256 = "1e66bd3e83829c679d0a3535495a3a4611e40a79bd54c7c567b559f4ddba7a4a";
+        url = "https://updates.jenkins-ci.org/download/plugins/durable-task/504.vb10d1ae5ba2f/durable-task.hpi";
+        sha256 = "0c79fdd0a04852987c8457953f89d5089fffb20d78331fabd58647b966268340";
         };
       };
     echarts-api = mkJenkinsPlugin {
       name = "echarts-api";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/echarts-api/5.4.0-5/echarts-api.hpi";
-        sha256 = "59041765aaba882f00c15cdeb9edfff457a11ec1137b9b6bfc9212c2b99dde9b";
+        url = "https://updates.jenkins-ci.org/download/plugins/echarts-api/5.4.0-3/echarts-api.hpi";
+        sha256 = "61d44c082bdccf9e2ea27feffa3d41c2988cdfa76d84a7dbf21e0e6c9445de24";
         };
       };
     font-awesome-api = mkJenkinsPlugin {
       name = "font-awesome-api";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/font-awesome-api/6.4.0-2/font-awesome-api.hpi";
-        sha256 = "f81b62dea7c6feed347df5e0f40e48f9966fd58c690745ed157f0749809e8ad6";
+        url = "https://updates.jenkins-ci.org/download/plugins/font-awesome-api/6.3.0-2/font-awesome-api.hpi";
+        sha256 = "e5bcec111b9612fd268786d208a06ffe6d755469cf5890593d2975337bf318db";
         };
       };
     git = mkJenkinsPlugin {
       name = "git";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/git/5.2.0/git.hpi";
-        sha256 = "86895fb0350a0fc7904fdad661d5c36fa7d2f7783e151fe44b83f48b4e75dc7e";
+        url = "https://updates.jenkins-ci.org/download/plugins/git/5.0.0/git.hpi";
+        sha256 = "5ad8e2f6ef7b9bec00c889092fc702ef21c1d4a334a5c9c8f00cffa65cf63605";
         };
       };
     git-client = mkJenkinsPlugin {
       name = "git-client";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/git-client/4.4.0/git-client.hpi";
-        sha256 = "4b00c18ae7856ebda8fd7bb0bf18dc4d1eb0a27f7f54f97dfce5000a9c8d8b04";
+        url = "https://updates.jenkins-ci.org/download/plugins/git-client/4.2.0/git-client.hpi";
+        sha256 = "42c84f73e80fe47041d6ecd66b3f98d4f239fd460b7b727d14a78174bc8ae40e";
         };
       };
     github = mkJenkinsPlugin {
       name = "github";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/github/1.37.3/github.hpi";
-        sha256 = "5bbb837a65f062d6ebe11032605e869d0dc6e37bb38dba73e54b60ede0e97cf7";
+        url = "https://updates.jenkins-ci.org/download/plugins/github/1.37.0/github.hpi";
+        sha256 = "9314887062bc880504dab25a3958844fe613cb9268d77f00906d11fe8c669d6d";
         };
       };
     github-api = mkJenkinsPlugin {
       name = "github-api";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/github-api/1.314-431.v78d72a_3fe4c3/github-api.hpi";
-        sha256 = "d961e384cc796cb2402aaca266cffa45d3f23f449f5771d30d72c5eca630c8f7";
+        url = "https://updates.jenkins-ci.org/download/plugins/github-api/1.303-417.ve35d9dd78549/github-api.hpi";
+        sha256 = "3d241357ff65631c97b0abb130fe72c421b842923cd09efdfb363f12e910b17e";
         };
       };
     github-branch-source = mkJenkinsPlugin {
       name = "github-branch-source";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/github-branch-source/1732.v3f1889a_c475b_/github-branch-source.hpi";
-        sha256 = "eec6a26d0d2f8d7d2ad83732260bb069d14a99b18ee19008ec818134c54e443f";
+        url = "https://updates.jenkins-ci.org/download/plugins/github-branch-source/1703.vd5a_2b_29c6cdc/github-branch-source.hpi";
+        sha256 = "0600887314957ba66181aac02d16d40cd0e46cb49a4418a729da726b97ec70c7";
         };
       };
     instance-identity = mkJenkinsPlugin {
       name = "instance-identity";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/instance-identity/173.va_37c494ec4e5/instance-identity.hpi";
-        sha256 = "0e240647854068c21fec3f3dbe449bf1a29356a1dea87646cb1ac813bec37c79";
+        url = "https://updates.jenkins-ci.org/download/plugins/instance-identity/142.v04572ca_5b_265/instance-identity.hpi";
+        sha256 = "0545ef7fa6b5240f2baf1a385464e5d4f2ab43ac5784460c82d4eb1e5f2dbd6f";
         };
       };
     ionicons-api = mkJenkinsPlugin {
       name = "ionicons-api";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/ionicons-api/56.v1b_1c8c49374e/ionicons-api.hpi";
-        sha256 = "4a6176a2169481fec295c900a6291b3b809b8dd17805868abbdc8a7a322169ca";
+        url = "https://updates.jenkins-ci.org/download/plugins/ionicons-api/45.vf54fca_5d2154/ionicons-api.hpi";
+        sha256 = "56b1e6377326e36f8d98e7e992aa2a6622e9e556efc78b2408a5418eedf6074b";
         };
       };
     jackson2-api = mkJenkinsPlugin {
       name = "jackson2-api";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/jackson2-api/2.15.2-350.v0c2f3f8fc595/jackson2-api.hpi";
-        sha256 = "41c78ad46a4ce3fc40b353bf4cd425aa18d2a4dbfe826624c62834e4b19fdaad";
+        url = "https://updates.jenkins-ci.org/download/plugins/jackson2-api/2.14.2-319.v37853346a_229/jackson2-api.hpi";
+        sha256 = "a8e9fce51913f55ec42924cb92447c807eb9d8560f8fa6648a5231d31118f896";
         };
       };
     jakarta-activation-api = mkJenkinsPlugin {
@@ -241,8 +241,8 @@
     javadoc = mkJenkinsPlugin {
       name = "javadoc";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/javadoc/243.vb_b_503b_b_45537/javadoc.hpi";
-        sha256 = "0dfffce64e478edcdbbfde2df5913be2ff46e5e033daff8bc9bb616ca7528999";
+        url = "https://updates.jenkins-ci.org/download/plugins/javadoc/233.vdc1a_ec702cff/javadoc.hpi";
+        sha256 = "9a546d376e92bc1f8fe68d8d7628388deb7a043c0dfe0836f39afe8eccccefa6";
         };
       };
     javax-activation-api = mkJenkinsPlugin {
@@ -262,8 +262,8 @@
     jenkins-design-language = mkJenkinsPlugin {
       name = "jenkins-design-language";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/jenkins-design-language/1.27.6/jenkins-design-language.hpi";
-        sha256 = "e1a15071249f3fe93ec6ea4b92f338af8a01d2b9c3b610af67bef3b032074f4a";
+        url = "https://updates.jenkins-ci.org/download/plugins/jenkins-design-language/1.27.3/jenkins-design-language.hpi";
+        sha256 = "e67a942df722a6732d8b5aa3297924acf302aef954a9e306a80b8ccd10c6ae58";
         };
       };
     jjwt-api = mkJenkinsPlugin {
@@ -276,36 +276,43 @@
     job-dsl = mkJenkinsPlugin {
       name = "job-dsl";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/job-dsl/1.84/job-dsl.hpi";
-        sha256 = "2c1b741a7cdd2630aeb8bed60b9abb60eb286d1d00e9c1df4a73f58b352220fe";
+        url = "https://updates.jenkins-ci.org/download/plugins/job-dsl/1.83/job-dsl.hpi";
+        sha256 = "662db3bddecfa5b9de71a55647da5da8c9c753cdbc5d0d53023412162016d3a7";
         };
       };
     jquery3-api = mkJenkinsPlugin {
       name = "jquery3-api";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/jquery3-api/3.7.0-1/jquery3-api.hpi";
-        sha256 = "1318866ddd43d38a92af93fddf837526d430a0a9123d54e442295edfece1b4e5";
+        url = "https://updates.jenkins-ci.org/download/plugins/jquery3-api/3.6.4-1/jquery3-api.hpi";
+        sha256 = "3228b5e3944e004d09a73c2b2b6548851ac725c1e955fb09c8ca577f83a490f8";
         };
       };
     jsch = mkJenkinsPlugin {
       name = "jsch";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/jsch/0.2.8-65.v052c39de79b_2/jsch.hpi";
-        sha256 = "1267c1d0f48ee3c00fb325a5c53ef5ec73eae4daeab27c5bf55f235069055abe";
+        url = "https://updates.jenkins-ci.org/download/plugins/jsch/0.1.55.61.va_e9ee26616e7/jsch.hpi";
+        sha256 = "8379691a06b084540ce6b70c11fc055720098d262b717cf46429a2afd6ca8ee6";
         };
       };
     junit = mkJenkinsPlugin {
       name = "junit";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/junit/1217.v4297208a_a_b_ce/junit.hpi";
-        sha256 = "041d2a0de08b62d663597e1a03f50bf11b94c25540c3ee9aa02e942265b148ce";
+        url = "https://updates.jenkins-ci.org/download/plugins/junit/1196.vb_4cf28b_c7724/junit.hpi";
+        sha256 = "c18597ec2492407911785012993093c4407a99ca63b981f7c1d9f2d0fbfab989";
         };
       };
     mailer = mkJenkinsPlugin {
       name = "mailer";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/mailer/463.vedf8358e006b_/mailer.hpi";
-        sha256 = "e732d5e291b047a423ced942140c4a0cefa08fe4a40dba69ad5c5af53bba593e";
+        url = "https://updates.jenkins-ci.org/download/plugins/mailer/448.v5b_97805e3767/mailer.hpi";
+        sha256 = "0b5f9925bb002b286e2ea46fa8157b3b957845c8d9cedf57cb00ede6bfe46609";
+        };
+      };
+    managed-scripts = mkJenkinsPlugin {
+      name = "managed-scripts";
+      src = fetchurl {
+        url = "https://updates.jenkins-ci.org/download/plugins/managed-scripts/1.5.6/managed-scripts.hpi";
+        sha256 = "72ae9dcd4085bdfbe810c1e04e30269520db6a1cefba339e34c13f39fa8384b8";
         };
       };
     mapdb-api = mkJenkinsPlugin {
@@ -318,36 +325,36 @@
     matrix-project = mkJenkinsPlugin {
       name = "matrix-project";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/matrix-project/808.v5a_b_5f56d6966/matrix-project.hpi";
-        sha256 = "c8f03bb421e0359d7d7b2501ceca602bc128f2b7a8092449630665f2924f57b4";
+        url = "https://updates.jenkins-ci.org/download/plugins/matrix-project/785.v06b_7f47b_c631/matrix-project.hpi";
+        sha256 = "e42f01c243f2a5797649438cbf523b7a76b40d1ff3cf9075898fe1e824f2e525";
         };
       };
     maven-plugin = mkJenkinsPlugin {
       name = "maven-plugin";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/maven-plugin/3.23/maven-plugin.hpi";
-        sha256 = "f412f9701aafa46d8e68dccb046b41745f2116ad91b76b0f35a24f21830097eb";
+        url = "https://updates.jenkins-ci.org/download/plugins/maven-plugin/3.21/maven-plugin.hpi";
+        sha256 = "86e4a8ede78fcd5bea375685ba29713f5e08ee07467a3c6bc768d5aa3ff51e01";
         };
       };
     metrics = mkJenkinsPlugin {
       name = "metrics";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/metrics/4.2.18-442.v02e107157925/metrics.hpi";
-        sha256 = "8c552715237b7bb2b9b6a1b9806d691e4043d5416f732cde2c293b01d361d90f";
+        url = "https://updates.jenkins-ci.org/download/plugins/metrics/4.2.13-420.vea_2f17932dd6/metrics.hpi";
+        sha256 = "ccdd21e7890530e555285cfd4efe4ea2e33215b99ad1901afdb867fffb554e57";
         };
       };
     mina-sshd-api-common = mkJenkinsPlugin {
       name = "mina-sshd-api-common";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/mina-sshd-api-common/2.10.0-69.v28e3e36d18eb_/mina-sshd-api-common.hpi";
-        sha256 = "50090b0f09294b051c2415311a5fe8a1c602f2e515b2609936eead5e5a164ceb";
+        url = "https://updates.jenkins-ci.org/download/plugins/mina-sshd-api-common/2.9.2-62.v199162f0a_2f8/mina-sshd-api-common.hpi";
+        sha256 = "e17fd867a7fde524920c9c6abfd6dcba787663e2f8ae395568ee32601cab750f";
         };
       };
     mina-sshd-api-core = mkJenkinsPlugin {
       name = "mina-sshd-api-core";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/mina-sshd-api-core/2.10.0-69.v28e3e36d18eb_/mina-sshd-api-core.hpi";
-        sha256 = "2414182b5cc988a6d28fee6a35286e95bf7b841749c3b27c979021f88277890e";
+        url = "https://updates.jenkins-ci.org/download/plugins/mina-sshd-api-core/2.9.2-62.v199162f0a_2f8/mina-sshd-api-core.hpi";
+        sha256 = "3b9c97702654188cfa9f1347eae49c7ef88d965fd07daf41da4947c618868457";
         };
       };
     node-iterator-api = mkJenkinsPlugin {
@@ -360,22 +367,22 @@
     okhttp-api = mkJenkinsPlugin {
       name = "okhttp-api";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/okhttp-api/4.11.0-157.v6852a_a_fa_ec11/okhttp-api.hpi";
-        sha256 = "1ac8e08914923edcf5e1826b948d6c89f20d9247949105be0869c3e397b79eb6";
+        url = "https://updates.jenkins-ci.org/download/plugins/okhttp-api/4.10.0-132.v7a_7b_91cef39c/okhttp-api.hpi";
+        sha256 = "d64fcc0e29c76c5b0197f8585267f53ffa96e0ea0709c7aa4a4ecd0eccfeb6ca";
         };
       };
     parameterized-trigger = mkJenkinsPlugin {
       name = "parameterized-trigger";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/parameterized-trigger/2.46/parameterized-trigger.hpi";
-        sha256 = "b7807a1dd4ffc44ec446835f8d42b33b5d0456b44093a602783f553aa4003100";
+        url = "https://updates.jenkins-ci.org/download/plugins/parameterized-trigger/2.45/parameterized-trigger.hpi";
+        sha256 = "58d1441fb5cfb4837c67d4d87a8925f45d8e99a1472a8f8010fbecc0b6ecfed9";
         };
       };
     pipeline-build-step = mkJenkinsPlugin {
       name = "pipeline-build-step";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/pipeline-build-step/505.v5f0844d8d126/pipeline-build-step.hpi";
-        sha256 = "1163570e8a9b7672e8c2ec5bc779f943baea61d71740896529dfd2e428b94673";
+        url = "https://updates.jenkins-ci.org/download/plugins/pipeline-build-step/488.v8993df156e8d/pipeline-build-step.hpi";
+        sha256 = "e546e1443229a93cd9adcf05033f499b12cda0b29156974fb5e5e98a5f57e795";
         };
       };
     pipeline-graph-analysis = mkJenkinsPlugin {
@@ -388,22 +395,22 @@
     pipeline-graph-view = mkJenkinsPlugin {
       name = "pipeline-graph-view";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/pipeline-graph-view/198.v0844db_6ca_554/pipeline-graph-view.hpi";
-        sha256 = "4bc80764752600d1605c19d89f12fdf62e3a355ea8076e5288716ece3f716cd3";
+        url = "https://updates.jenkins-ci.org/download/plugins/pipeline-graph-view/183.v9e27732d970f/pipeline-graph-view.hpi";
+        sha256 = "b59c385a5ae48db674e6d060f85da453b1141e98f8ca81b017bdd8ca6f1cf67f";
         };
       };
     pipeline-groovy-lib = mkJenkinsPlugin {
       name = "pipeline-groovy-lib";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/pipeline-groovy-lib/671.v07c339c842e8/pipeline-groovy-lib.hpi";
-        sha256 = "f500a91c1a1ea05ada16c33667a69d69ccadb787cd0cefdee3f7df1034ccae71";
+        url = "https://updates.jenkins-ci.org/download/plugins/pipeline-groovy-lib/656.va_a_ceeb_6ffb_f7/pipeline-groovy-lib.hpi";
+        sha256 = "80648aa71176b01695886288a89c56487ad9195ea678a4cdd033c69b7147e026";
         };
       };
     pipeline-input-step = mkJenkinsPlugin {
       name = "pipeline-input-step";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/pipeline-input-step/477.v339683a_8d55e/pipeline-input-step.hpi";
-        sha256 = "b25598cf76c788563ba667c2ab82348842b95db133d378395536f777ee2be00f";
+        url = "https://updates.jenkins-ci.org/download/plugins/pipeline-input-step/466.v6d0a_5df34f81/pipeline-input-step.hpi";
+        sha256 = "81fbb12caffea58e298d0662a2fff4cc2ad087b92718d917f5c00b63909a8fe0";
         };
       };
     pipeline-milestone-step = mkJenkinsPlugin {
@@ -416,22 +423,22 @@
     pipeline-model-api = mkJenkinsPlugin {
       name = "pipeline-model-api";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/pipeline-model-api/2.2144.v077a_d1928a_40/pipeline-model-api.hpi";
-        sha256 = "579e49d96527e09c25e42ff3dc1f320adef7ee0a8e2761de5e10cc1c0f02fcff";
+        url = "https://updates.jenkins-ci.org/download/plugins/pipeline-model-api/2.2125.vddb_a_44a_d605e/pipeline-model-api.hpi";
+        sha256 = "b49344c29306471197f3559eb1d87cb7a85b6cb6129f0428f1441d867adcf2bf";
         };
       };
     pipeline-model-definition = mkJenkinsPlugin {
       name = "pipeline-model-definition";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/pipeline-model-definition/2.2144.v077a_d1928a_40/pipeline-model-definition.hpi";
-        sha256 = "407126434abeaf8db0224c2896b246b36ae165428ba7b53f932dc52b206b73bd";
+        url = "https://updates.jenkins-ci.org/download/plugins/pipeline-model-definition/2.2125.vddb_a_44a_d605e/pipeline-model-definition.hpi";
+        sha256 = "62f90a54af0821a724ecba00559ea62978de7ff66d24ee7fba67866c64598aa3";
         };
       };
     pipeline-model-extensions = mkJenkinsPlugin {
       name = "pipeline-model-extensions";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/pipeline-model-extensions/2.2144.v077a_d1928a_40/pipeline-model-extensions.hpi";
-        sha256 = "fccea0e049b8c0a133ce750df97123fe5ff99d2141beec634e0aa98e6b582fc9";
+        url = "https://updates.jenkins-ci.org/download/plugins/pipeline-model-extensions/2.2125.vddb_a_44a_d605e/pipeline-model-extensions.hpi";
+        sha256 = "67b3517f347daa9612a2625ff3381bfda2e7b40b9babaab084161aa60d512be6";
         };
       };
     pipeline-stage-step = mkJenkinsPlugin {
@@ -444,15 +451,15 @@
     pipeline-stage-tags-metadata = mkJenkinsPlugin {
       name = "pipeline-stage-tags-metadata";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/pipeline-stage-tags-metadata/2.2144.v077a_d1928a_40/pipeline-stage-tags-metadata.hpi";
-        sha256 = "f67de16861c6fa53b3ef41bd8eaf2f73ca2221daca9dadd8c3164e17f47d94f2";
+        url = "https://updates.jenkins-ci.org/download/plugins/pipeline-stage-tags-metadata/2.2125.vddb_a_44a_d605e/pipeline-stage-tags-metadata.hpi";
+        sha256 = "fd2b092b8472f24bbbba3b95477782fd1aece3e6e64382461b94da1821d04350";
         };
       };
     pipeline-utility-steps = mkJenkinsPlugin {
       name = "pipeline-utility-steps";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/pipeline-utility-steps/2.16.0/pipeline-utility-steps.hpi";
-        sha256 = "dfe39235dffbe5bfd10c39fb652e313dd9c0b3b7e44dbf275326eb64da94c754";
+        url = "https://updates.jenkins-ci.org/download/plugins/pipeline-utility-steps/2.15.1/pipeline-utility-steps.hpi";
+        sha256 = "cf415612a7fe9f6f3155a50b751ebf71bfa1a72c0a7b889105bb4c2df059c260";
         };
       };
     plain-credentials = mkJenkinsPlugin {
@@ -465,8 +472,8 @@
     plugin-util-api = mkJenkinsPlugin {
       name = "plugin-util-api";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/plugin-util-api/3.3.0/plugin-util-api.hpi";
-        sha256 = "737342c3a1ef81ede07bc05019b0493b3246ba95ddabdafc6d4a32ddcf6f971d";
+        url = "https://updates.jenkins-ci.org/download/plugins/plugin-util-api/3.2.0/plugin-util-api.hpi";
+        sha256 = "e32105a9c8017643a007cc4565a0ee8bff3a556bf93ec7ac0788c5116704e77f";
         };
       };
     project-inheritance = mkJenkinsPlugin {
@@ -486,29 +493,29 @@
     rebuild = mkJenkinsPlugin {
       name = "rebuild";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/rebuild/320.v5a_0933a_e7d61/rebuild.hpi";
-        sha256 = "9b09a256f8a81edc984b688de07c795c22122585c5ce0148e703d20cbce4dfd8";
+        url = "https://updates.jenkins-ci.org/download/plugins/rebuild/1.34/rebuild.hpi";
+        sha256 = "84e3ac4876488adb8649172ace2132a6fd887faf0809235154e40d330d912a74";
         };
       };
     run-condition = mkJenkinsPlugin {
       name = "run-condition";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/run-condition/1.6/run-condition.hpi";
-        sha256 = "37dcb357578a44e684aa3bef9140bc6d90177cc4088fefdeba4eeb5de517534c";
+        url = "https://updates.jenkins-ci.org/download/plugins/run-condition/1.5/run-condition.hpi";
+        sha256 = "7ed94d7196676c00e45b5bf7e191831eee0e49770dced1c266b8055980b339ca";
         };
       };
     scm-api = mkJenkinsPlugin {
       name = "scm-api";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/scm-api/676.v886669a_199a_a_/scm-api.hpi";
-        sha256 = "c8cc7b2120d25977cefc2fa6cc3830be034971e63f5009aee516d984025a837a";
+        url = "https://updates.jenkins-ci.org/download/plugins/scm-api/631.v9143df5b_e4a_a/scm-api.hpi";
+        sha256 = "981a908f2b2af2fd7947d2c2dc58bb0e85185ba3a0a741f1f948cd904d3bdb30";
         };
       };
     script-security = mkJenkinsPlugin {
       name = "script-security";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/script-security/1269.v639888f5e366/script-security.hpi";
-        sha256 = "62eeb79b83267daf67815a287fcabe72d223bc389ac6fded7dda81355fb0e601";
+        url = "https://updates.jenkins-ci.org/download/plugins/script-security/1244.ve463715a_f89c/script-security.hpi";
+        sha256 = "7e4834c6d4f36880bb7d21aa0852fafdaee1c748a3ecf5ccb5a8ff7b7d003615";
         };
       };
     snakeyaml-api = mkJenkinsPlugin {
@@ -521,50 +528,50 @@
     ssh-credentials = mkJenkinsPlugin {
       name = "ssh-credentials";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/ssh-credentials/308.ve4497b_ccd8f4/ssh-credentials.hpi";
-        sha256 = "23984ee5cfede3526a13714c82426db6d8e63c5635f9c6aac89a48c246000be2";
+        url = "https://updates.jenkins-ci.org/download/plugins/ssh-credentials/305.v8f4381501156/ssh-credentials.hpi";
+        sha256 = "008ffb999ce9c7949c1299e1305007178bd0bedfd4c8401d6a4e92eeba635ff4";
         };
       };
     ssh-slaves = mkJenkinsPlugin {
       name = "ssh-slaves";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/ssh-slaves/2.916.vd17b_43357ce4/ssh-slaves.hpi";
-        sha256 = "27e283eaab9dd5fa250c2ef579a31018cbdfe80db044d2afe2cbdef808f39842";
+        url = "https://updates.jenkins-ci.org/download/plugins/ssh-slaves/2.877.v365f5eb_a_b_eec/ssh-slaves.hpi";
+        sha256 = "64dd557487fbab57c35d78e241e07f6596a46fb43723031a4c1c3d783e50d016";
         };
       };
     structs = mkJenkinsPlugin {
       name = "structs";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/structs/325.vcb_307d2a_2782/structs.hpi";
-        sha256 = "2300dd3ce12775760e7898c8626567732366e1da652a4121f98aa3effdd1e3e1";
+        url = "https://updates.jenkins-ci.org/download/plugins/structs/324.va_f5d6774f3a_d/structs.hpi";
+        sha256 = "65dd0a68c663b08e30ed254f37549e9ccfab18d27e4f1182cc7eed6d4d02c958";
         };
       };
     subversion = mkJenkinsPlugin {
       name = "subversion";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/subversion/2.17.3/subversion.hpi";
-        sha256 = "e972712afe0225b4706e38b2352ae11c026b170cc023e68e40e87dfbd9c267a5";
+        url = "https://updates.jenkins-ci.org/download/plugins/subversion/2.17.1/subversion.hpi";
+        sha256 = "8647902fe5786df248cb9a2c77322210871270a6c233de7426cbc2706738be3c";
         };
       };
     support-core = mkJenkinsPlugin {
       name = "support-core";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/support-core/1356.vd0f980edfa_46/support-core.hpi";
-        sha256 = "d0c7d10e365460fdb29116b1ed34755ecd7dbb968ad783870b083b2396b05572";
+        url = "https://updates.jenkins-ci.org/download/plugins/support-core/1266.v6d096c154c90/support-core.hpi";
+        sha256 = "31d3e23cd5ecc08c13aa8584ae69ee7bede124199a503983db5ed9ed607906df";
         };
       };
     theme-manager = mkJenkinsPlugin {
       name = "theme-manager";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/theme-manager/209.va_da_1152274b_e/theme-manager.hpi";
-        sha256 = "d6f79fc9cc73b2f1ea7e6aa652d15fed515acb82caba0424328475718bf41cde";
+        url = "https://updates.jenkins-ci.org/download/plugins/theme-manager/1.6/theme-manager.hpi";
+        sha256 = "1ea4f6b571befade0611ddb104cd49b94ecd41a427deadfcf3cb504903222d63";
         };
       };
     token-macro = mkJenkinsPlugin {
       name = "token-macro";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/token-macro/384.vf35b_f26814ec/token-macro.hpi";
-        sha256 = "eb099a1198aec1bdc1b04be7504611367923a467b03b801ea21fb6705bc9991d";
+        url = "https://updates.jenkins-ci.org/download/plugins/token-macro/321.vd7cc1f2a_52c8/token-macro.hpi";
+        sha256 = "095084f680c37f7d18d6468e2c4aecd74430f324c1d6ebb23d8551d34debdadb";
         };
       };
     trilead-api = mkJenkinsPlugin {
@@ -598,50 +605,50 @@
     workflow-api = mkJenkinsPlugin {
       name = "workflow-api";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/workflow-api/1259.vb_47f14fffc8a_/workflow-api.hpi";
-        sha256 = "8868d6c507b57c2bebaf75210ea5a2d3110a390c29a7d37cd99ef223bef92a31";
+        url = "https://updates.jenkins-ci.org/download/plugins/workflow-api/1208.v0cc7c6e0da_9e/workflow-api.hpi";
+        sha256 = "b99225d0926f1956a516ad30e8fb4c0f904c92f835be7c91a9d6a17fa8c78d88";
         };
       };
     workflow-basic-steps = mkJenkinsPlugin {
       name = "workflow-basic-steps";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/workflow-basic-steps/1042.ve7b_140c4a_e0c/workflow-basic-steps.hpi";
-        sha256 = "ab0f9d989a1885ae6f5148c9acc6ffcf1667bf427c6d392eaf8cf1cd1b670345";
+        url = "https://updates.jenkins-ci.org/download/plugins/workflow-basic-steps/1010.vf7a_b_98e847c1/workflow-basic-steps.hpi";
+        sha256 = "2106fde9cc20fb037f2f9b33b0684fb7817b4f40d4e73f0ed2e20bcaa3fd9159";
         };
       };
     workflow-cps = mkJenkinsPlugin {
       name = "workflow-cps";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/workflow-cps/3769.v8b_e595e4d40d/workflow-cps.hpi";
-        sha256 = "23280af4653d98135f5e116135389f31ddde4b1736eb2a14152a7f72ef50d2ab";
+        url = "https://updates.jenkins-ci.org/download/plugins/workflow-cps/3653.v07ea_433c90b_4/workflow-cps.hpi";
+        sha256 = "7e9d151fd51747f2727274044113dd939255e136eb2c3f3d26d9243ebe153f64";
         };
       };
     workflow-durable-task-step = mkJenkinsPlugin {
       name = "workflow-durable-task-step";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/workflow-durable-task-step/1284.v4fcd365b_75b_e/workflow-durable-task-step.hpi";
-        sha256 = "337fbbe8f55d82fdec90a8c0f5882c6a6f19330a881f2a663569f6664c540357";
+        url = "https://updates.jenkins-ci.org/download/plugins/workflow-durable-task-step/1244.vee71f675dee6/workflow-durable-task-step.hpi";
+        sha256 = "a1d0fd07518bef98a5b7da1ce6ed139048faa8957bc83e981ef2fb6aef9fddfa";
         };
       };
     workflow-job = mkJenkinsPlugin {
       name = "workflow-job";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/workflow-job/1339.v7ede8a_29ed06/workflow-job.hpi";
-        sha256 = "9a5198abb183b194076f0853abdbb5b53539ac9927540bfc33c0a882e28c75f8";
+        url = "https://updates.jenkins-ci.org/download/plugins/workflow-job/1289.vd1c337fd5354/workflow-job.hpi";
+        sha256 = "5bd44193b84159d118ee8aa0fd163d8d4a7aa062f113f9043a2a5c0e9938c617";
         };
       };
     workflow-multibranch = mkJenkinsPlugin {
       name = "workflow-multibranch";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/workflow-multibranch/756.v891d88f2cd46/workflow-multibranch.hpi";
-        sha256 = "f3f690324e297c8f263ac21b0a3daa5d60877a2214f6eca2d28d4946d97964b8";
+        url = "https://updates.jenkins-ci.org/download/plugins/workflow-multibranch/733.v109046189126/workflow-multibranch.hpi";
+        sha256 = "539e0d6a50f840af044ee4976b2e027b6ac4947d45a371c32a2352259f28a2d9";
         };
       };
     workflow-scm-step = mkJenkinsPlugin {
       name = "workflow-scm-step";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/workflow-scm-step/415.v434365564324/workflow-scm-step.hpi";
-        sha256 = "500720bf8a634363c79ae16d56b88493c211fdb33e163b5d17fb52a85f53508e";
+        url = "https://updates.jenkins-ci.org/download/plugins/workflow-scm-step/408.v7d5b_135a_b_d49/workflow-scm-step.hpi";
+        sha256 = "f6f8892c954ca3e3a8eafcc86812b1ca3d226dd30793b19fc91f75e6557518b7";
         };
       };
     workflow-step-api = mkJenkinsPlugin {
@@ -654,8 +661,8 @@
     workflow-support = mkJenkinsPlugin {
       name = "workflow-support";
       src = fetchurl {
-        url = "https://updates.jenkins-ci.org/download/plugins/workflow-support/848.v5a_383b_d14921/workflow-support.hpi";
-        sha256 = "3872a41ed77581e5c5b22c836849346a8c59c59691b2cd5d892bf4369f7c8502";
+        url = "https://updates.jenkins-ci.org/download/plugins/workflow-support/839.v35e2736cfd5c/workflow-support.hpi";
+        sha256 = "3fe54cab155ad9bac49d3a98df1377f5795f8acf556f829ac48b32f5567c02bd";
         };
       };
     }
