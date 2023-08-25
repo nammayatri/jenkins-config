@@ -47,18 +47,13 @@
 
               nodes = {
                 containerSlaves = {
-                  # externalInterface = "wlp5s0";
-                  # hostAddress = "192.168.11.238";
                   externalInterface = "enp7s0";
                   hostAddress = "192.168.10.176";
                   containers = {
-                    jenkins-slave-nixos-1 = {
-                      hostIP = "192.168.100.11";
-                      numExecutors = 4;
-                    };
-                    # jenkins-slave-nixos-2.hostIP = "192.168.100.12";
-                    # jenkins-slave-nixos-3.hostIP = "192.168.100.13";
-                    # jenkins-slave-nixos-4.hostIP = "192.168.100.14";
+                    jenkins-slave-nixos-1.hostIP = "192.168.100.11";
+                    jenkins-slave-nixos-2.hostIP = "192.168.100.12";
+                    jenkins-slave-nixos-3.hostIP = "192.168.100.13";
+                    jenkins-slave-nixos-4.hostIP = "192.168.100.14";
                   };
                 };
                 sshSlaves = {
