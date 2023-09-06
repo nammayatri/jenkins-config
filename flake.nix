@@ -47,8 +47,11 @@
 
               nodes = {
                 containerSlaves = {
-                  externalInterface = "enp7s0";
-                  hostAddress = "192.168.10.176";
+                  # Use `ifconfig` to find these values for host
+                  #externalInterface = "enp7s0";
+                  #hostAddress = "192.168.10.176";
+                  externalInterface = "wlp5s0";
+                  hostAddress = "192.168.11.227";
                   containers = {
                     jenkins-slave-nixos-1.hostIP = "192.168.100.11";
                     jenkins-slave-nixos-2.hostIP = "192.168.100.12";
