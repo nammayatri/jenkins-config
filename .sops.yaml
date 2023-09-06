@@ -7,5 +7,5 @@ creation_rules:
     key_groups:
       - age:
         - *admin_srid
-        - &admin_aman
+        - *admin_aman
         - *server_nammayatri
