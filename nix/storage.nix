@@ -2,7 +2,9 @@
 { pkgs, ... }:
 {
   nix = {
-    settings.auto-optimise-store = true;
+    # Disabling because of https://github.com/NixOS/nix/issues/7273
+    # settings.auto-optimise-store = true;
+
     gc = {
       automatic = true;
       options = "--delete-older-than 30d";
