@@ -74,6 +74,8 @@
       neovim
       git
       tmux
+      htop
+      ncdu
     ];
     openssh.authorizedKeys.keys = import ../admin-keys.nix;
   };
