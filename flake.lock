@@ -436,11 +436,11 @@
         "nixci": "nixci"
       },
       "locked": {
-        "lastModified": 1694031882,
-        "narHash": "sha256-wl+5PO6OMkQCVVBqjh4f6nZsjf2Hu0TWVpyqQ+9omhc=",
+        "lastModified": 1698420178,
+        "narHash": "sha256-LfNWrHOvE1nBfTD5Oc+ibLUC0NhZMEdkaHwNvamal+8=",
         "owner": "juspay",
         "repo": "jenkins-nix-ci",
-        "rev": "3904a6996a1ad233baf2657da97b69f05c0ed36c",
+        "rev": "60e7a45befd08284dcec0c3e85bd1aafcf9217af",
         "type": "github"
       },
       "original": {
