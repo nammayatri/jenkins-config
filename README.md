@@ -32,3 +32,12 @@ For linux,
 nix build .#nixosConfigurations.jenkins-nix-ci.config.system.build.toplevel
 ```
 
+## FAQ
+
+### Jenkins is not accessible
+
+You will see something like `This site can't be reached`.
+
+1. Connect to Tailscale and see if it is accessible in VPN
+2. SSH to the machine
+3. Run `sudo systemctl restart tailscaled.service`
