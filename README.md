@@ -13,6 +13,8 @@ To deploy the master node,
 deploy --remote-build -s .#nixos
 ```
 
+### NetworkManager issues
+
 NOTE: If deploying fails with rollback on NetworkManager issues, see https://github.com/serokell/deploy-rs/issues/91#issuecomment-846292218. 
 
 - Deploy with `--auto-rollback false --magic-rollback false`
